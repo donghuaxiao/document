@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE preface PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter id="dialog">
+    <title>BootStrap</title>
+	<section>
+		<title>Bootstrap dialog 单击对话框外，不关闭</title>
+		<para>
+			默认情况下，单击Bootstrap Modal Dialog 对话框外的部分，对话框会隐藏起来,在大部分情况下，这不是我们想要的结果，可以通过设置backdrop属性来取消自动隐藏。
+		</para>
+		<programlisting>
+		<![CDATA[
+$("#modal-dialog").modal({
+	backdrop : 'static',
+	keyboard : false
+});
+		]]>
+		</programlisting>
+    </section>
+</chapter>
