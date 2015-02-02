@@ -138,7 +138,8 @@
     <!-- Monospaced fonts are smaller than regular text -->
     <xsl:attribute-set name="monospace.properties">
         <xsl:attribute name="font-family">
-            <xsl:value-of select="$monospace.font.family"/>
+            <!-- <xsl:value-of select="$monospace.font.family"/>-->
+			<xsl:value-of select="wqy-zhenhei"/>
         </xsl:attribute>
         <xsl:attribute name="font-size">0.8em</xsl:attribute>
     </xsl:attribute-set>

@@ -28,7 +28,6 @@
             <id>tutorial-site</id>
             <goals>
               <goal>generate-html</goal>
-              <goal>generate-pdf</goal>
             </goals>
             <phase>pre-site</phase>
           </execution>
@@ -48,7 +47,7 @@
           </entities>
           <postProcess>
             <copy todir="target/site/tutorial/html" failonerror="false">
-              <fileset dir="target/docbkx/html/index">
+              <fileset dir="target/docbkx/html/">
                 <include name="**/*.html" />
               </fileset>
             </copy>

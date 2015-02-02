@@ -188,11 +188,14 @@ tt {
 
 pre {
     font-size: 110%;
-    padding: 5px;
+    padding: 4px;
     border-style: solid;
     border-width: 1px;
     border-color: #CCCCCC;
+	border-radius: 4px;
     background-color: #f3f5e9;
+	color: blue;
+	font-family: "Courier";
 }
 
 ul, ol, li {
@@ -306,4 +309,12 @@ div.note * td,
 .clear  {
   clear:both;
   visibility: hidden;
+}
+
+code {
+  font-family: "Courier";
+}
+
+.code {
+	color: blue;
 }
